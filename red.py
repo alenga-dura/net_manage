@@ -2,8 +2,6 @@
 # Made by Alenga
 
 
-
-
 # IMPORTS
 import cmd_command
 import os
@@ -79,7 +77,7 @@ while True:
     elif optionMenu == '3':
         cls()
         print('---Opción 3---')
-        print('OJO. ¡Debes dar permiso de administrador a la terminar para el correcto funcionamiento de esta opción!')
+        print('OJO. ¡Debes dar permiso de administrador a la terminal para el correcto funcionamiento de esta opción!')
         input('Pulsa Enter para continuar...')
         # CREATE
         file = open("clearNet.bat", "w")
@@ -104,7 +102,7 @@ while True:
             time.sleep(1)
             seconds = seconds - int(1)
 
-        print('Se han borrado los perfiles de redes')
+        print('Se han borrado los perfiles de red')
 
         # DELETE
         spc()
